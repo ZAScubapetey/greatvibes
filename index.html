@@ -23,7 +23,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/clean-blog.min.css" rel="stylesheet">
-   
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -141,14 +141,25 @@
         <p>Type something in the input field to search for a specific text inside the div element with id="myDIV":</p>
         <input class="form-control" id="myInput" type="text" placeholder="Search..">
         <div id="myDIV">
-          <p>I am a paragraph.</p>
-          <div>I am a div element inside div.</div>
-          <button class="btn">I am a button</button>
-          <button class="btn btn-info">Another button</button>
-          <p>Another paragraph.</p>
+            <p>I am a paragraph.</p>
+            <div>I am a div element inside div.</div>
+            <button class="btn">I am a button</button>
+            <button class="btn btn-info">Another button</button>
+            <p>Another paragraph.</p>
         </div>
-      </div>
-      
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $("#myInput").on("keyup", function () {
+                var value = $(this).val().toLowerCase();
+                $("#myDIV *").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+        });
+    </script>
+
     <hr>
 
     <!-- Footer -->
@@ -187,16 +198,7 @@
             </div>
         </div>
     </footer>
-    <script>
-        $(document).ready(function () {
-            $("#myInput").on("keyup", function () {
-                var value = $(this).val().toLowerCase();
-                $("#myDIV *").filter(function () {
-                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-                });
-            });
-        });
-    </script>
+
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
