@@ -34,40 +34,7 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">GreatVibes</a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                aria-label="Toggle navigation">
-                Menu
-                <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                            Reviews
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="books.html">Books</a>
-                            <a class="dropdown-item" href="food.html">Food</a>
-                            <a class="dropdown-item" href="wines.html">Wine</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <div id="menu"></div>
 
     <!-- Page Header -->
     <header class="masthead" style="background-image: url('img/home-bg.jpg')">
@@ -98,7 +65,8 @@
                                 Flagstone Poetry Merlot 2019
                             </h2>
                             <h3 class="post-subtitle">
-                                a lovely red wine that brings back memories of the reason I started drinking red wine in the first place...
+                                a lovely red wine that brings back memories of the reason I started drinking red wine in
+                                the first place...
                             </h3>
                         </a>
                         <p class="post-meta">Posted by
@@ -106,7 +74,7 @@
                             on 02 January , 2021 in <a href="wines.html">Wine</a></p>
                     </div>
                     <hr>
-                  <!--<div class="post-preview">
+                    <!--<div class="post-preview">
                         <a href="bookTemplate.html">
                             <h2 class="post-title">
                                 First book review!
@@ -181,27 +149,27 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-<script>
-    $(window).scroll(function () {
-    var height = $(window).scrollTop();
-    if (height > 100) {
-        $('#back2Top').fadeIn();
-    } else {
-        $('#back2Top').fadeOut();
-    }
-});
-$(document).ready(function () {
-    $("#back2Top").click(function (event) {
-        event.preventDefault();
-        $("html, body").animate({
-            scrollTop: 0
-        }, "slow");
-        return false;
-    });
+    <script>
+        $(window).scroll(function () {
+            var height = $(window).scrollTop();
+            if (height > 100) {
+                $('#back2Top').fadeIn();
+            } else {
+                $('#back2Top').fadeOut();
+            }
+        });
+        $(document).ready(function () {
+            $("#back2Top").click(function (event) {
+                event.preventDefault();
+                $("html, body").animate({
+                    scrollTop: 0
+                }, "slow");
+                return false;
+            });
 
-});
-</script>
-
+        });
+    </script>
+   
     <!-- Custom scripts for this template -->
     <script src="js/clean-blog.min.js"></script>
 
