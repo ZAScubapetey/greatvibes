@@ -6,7 +6,10 @@
                      <li class="list-inline-item">
                          <!-- Facebook -->
                          <a href="http://www.facebook.com/sharer.php?u=https://www.greatvibes.co.za" target="_blank">
-                             <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+                            </span>
                          </a>
                      </li>
                      <li class="list-inline-item">
@@ -14,7 +17,10 @@
                          <!-- Twitter -->
                          <a href="https://twitter.com/share?url=https://www.greatvibes.co.za&amp;text=Great%20Vibes&amp;hashtags=greatvibes"
                              target="_blank">
-                             <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+                             <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
                          </a>
 
                      </li>
@@ -22,14 +28,20 @@
                          <!-- Email -->
                          <a
                              href="mailto:?Subject=Greatvibes.co.za&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://www.greatvibes.co.za">
-                             <img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
+                             <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-email fa-stack-1x fa-inverse"></i>
+                            </span>
                          </a>
                      </li>
                      <li class="list-inline-item">
                          <!-- Reddit -->
                          <a href="http://reddit.com/submit?url=https://www.greatvibes.co.za&amp;title=Great Vibes"
                              target="_blank">
-                             <img src="https://simplesharebuttons.com/images/somacro/reddit.png" alt="Reddit" />
+                             <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-reddit fa-stack-1x fa-inverse"></i>
+                            </span>
                          </a>
 
                      </li>
@@ -37,7 +49,10 @@
                          <!-- LinkedIn -->
                          <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.greatvibes.co.za"
                              target="_blank">
-                             <img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" />
+                             <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                            </span>
                          </a>
 
                      </li>
@@ -45,7 +60,10 @@
                          <!-- LinkedIn -->
                          <!-- Print -->
                          <a href="javascript:;" onclick="window.print()">
-                             <img src="https://simplesharebuttons.com/images/somacro/print.png" alt="Print" />
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-print fa-stack-1x fa-inverse"></i>
+                            </span>
                          </a>
 
                      </li>
