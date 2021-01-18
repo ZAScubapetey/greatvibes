@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto">
-                <h6 style="justify-content: center;">Share with your friends if you want to or don't, I'm not the boss
+                <h6 style="text-align: center;">Share with your friends if you want to or don't, I'm not the boss
                     of you:
                 </h6>
                 <br>
@@ -28,16 +28,7 @@
                         </a>
 
                     </li>
-                    <li class="list-inline-item">
-                        <!-- Email -->
-                        <a
-                            href="mailto:?Subject=Greatvibes.co.za&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://www.greatvibes.co.za">
-                            <span class="fa-stack fa-lg">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
+                    
                     <li class="list-inline-item">
                         <!-- Reddit -->
                         <a href="http://reddit.com/submit?url=https://www.greatvibes.co.za&amp;title=Great Vibes"
@@ -50,27 +41,16 @@
 
                     </li>
                     <li class="list-inline-item">
-                        <!-- LinkedIn -->
-                        <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.greatvibes.co.za"
-                            target="_blank">
+                        <!-- Email -->
+                        <a
+                            href="mailto:?Subject=Greatvibes.co.za&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://www.greatvibes.co.za">
                             <span class="fa-stack fa-lg">
                                 <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                                <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
-
                     </li>
-                    <li class="list-inline-item">
-                        <!-- LinkedIn -->
-                        <!-- Print -->
-                        <a href="javascript:;" onclick="window.print()">
-                            <span class="fa-stack fa-lg">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fas fa-print fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-
-                    </li>
+                   
                 </ul>
                 <p class="copyright text-muted">Copyright &copy; GreatVibes.co.za 2021</p>
             </div>
