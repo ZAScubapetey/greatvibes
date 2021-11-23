@@ -1,7 +1,0 @@
-====== Journal of important events ======
-
-^ Date ^ Title ^
-| [[personal:2021-08-30|2021-08-30]] | The Beginning |
-| [[personal:2021-08-31|2021-08-31]] | Let the Journaling begin |
-| [[personal:2021-09-01|2021-09-01]] | Spring has Sprung! |
-| [[personal:2021-09-02|2021-09-02]] | Painting has begun! |
