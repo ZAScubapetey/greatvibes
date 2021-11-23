@@ -1,0 +1,7 @@
+====== Resources ======
+
+
+  * [[http://localhost:8800/Files/DND/secretDashboard/dnd.html|Dashboard]] 
+  * [[http://localhost:8800/Files/DND/quickref/index.html|Quick references]]
+  * [[https://slyflourish.com/new_dms_guide_to_encounters.html|Sly Flourish's Guide to Encounters]]
+  * [[https://www.kassoon.com/dnd/|Kassoon with a little bit of Everything]]

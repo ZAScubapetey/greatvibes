@@ -1,0 +1,51 @@
+
+<h3 class="sectionedit1" id="include_hooks">Include Hooks</h3>
+<div class="level3">
+
+<p>
+Include hooks allow you to add additional <abbr title="HyperText Markup Language">HTML</abbr> or PHP to the template without modifying any of the template files itself, making them safe to survive an update. Just create the appropriate file in either the template directory (<code>lib/tpl/&lt;template&gt;/</code>) or your <code>conf/</code> directory.
+</p>
+
+</div>
+
+<h4 id="available_hooks">Available Hooks</h4>
+<div class="level4">
+<div class="table sectionedit2"><table class="inline">
+	<thead>
+	<tr class="row0">
+		<th class="col0 leftalign"> Filename               </th><th class="col1 leftalign"> Position of included <abbr title="HyperText Markup Language">HTML</abbr>                                                </th>
+	</tr>
+	</thead>
+	<tr class="row1">
+		<td class="col0 leftalign"> <code>meta.html</code>          </td><td class="col1"> Inside the <abbr title="HyperText Markup Language">HTML</abbr> &lt;head&gt;, use this to add additional styles or metaheaders </td>
+	</tr>
+	<tr class="row2">
+		<td class="col0"> <code>sidebarheader.html</code> </td><td class="col1"> At the top of the sidebar (if any) </td>
+	</tr>
+	<tr class="row3">
+		<td class="col0"> <code>sidebarfooter.html</code> </td><td class="col1"> At the bottom of the sidebar (if any) </td>
+	</tr>
+	<tr class="row4">
+		<td class="col0 leftalign"> <code>pageheader.html</code>    </td><td class="col1"> At the top inside the content box, above the actual content </td>
+	</tr>
+	<tr class="row5">
+		<td class="col0 leftalign"> <code>pagefooter.html</code>    </td><td class="col1"> At the bottom inside the content box, below the actual content </td>
+	</tr>
+	<tr class="row6">
+		<td class="col0 leftalign"> <code>header.html</code>        </td><td class="col1"> At the top of the page, above the logo and wiki title </td>
+	</tr>
+	<tr class="row7">
+		<td class="col0 leftalign"> <code>footer.html</code>        </td><td class="col1"> At the very end of the page after all other page content </td>
+	</tr>
+</table></div>
+<!-- EDIT{&quot;target&quot;:&quot;table&quot;,&quot;name&quot;:&quot;&quot;,&quot;hid&quot;:&quot;table&quot;,&quot;secid&quot;:2,&quot;range&quot;:&quot;334-1018&quot;} -->
+</div>
+
+<h4 id="see_also">See Also</h4>
+<div class="level4">
+<ul>
+<li class="level1"><div class="li"> <a href="https://www.dokuwiki.org/template%3Adokuwiki" class="interwiki iw_doku" title="https://www.dokuwiki.org/template%3Adokuwiki">template:dokuwiki</a></div>
+</li>
+</ul>
+
+</div>
