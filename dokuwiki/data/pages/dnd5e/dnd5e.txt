@@ -1,9 +1,0 @@
-====== DnD 5e Things ======
-
-  * [[dnd5e:books|Books]]
-  * [[dnd5e:adventures|Adventures]]
-  * [[dnd5e:npc_s|NPC]]
-  * [[dnd5e:maps|Maps]]
-  * [[dnd5e:notes|Notes]]
-  * [[dnd5e:resources|Resources]]
-
