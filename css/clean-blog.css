@@ -431,17 +431,18 @@ footer .copyright {
   margin-bottom: 0;
   text-align: center;
 }
-
+/* Custom Button Styles */
 .btn {
   font-size: 14px;
   font-weight: 800;
   padding: 15px 25px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  border-radius: 0;
+  border-radius: 25px; /* Rounded corners */
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+/* Primary Button Customization */
 .btn-primary {
   background-color: #0085a1;
   border-color: #0085a1;
@@ -455,7 +456,61 @@ footer .copyright {
   border-color: #00657b !important;
 }
 
+/* Large Button Customization */
 .btn-lg {
   font-size: 16px;
   padding: 25px 35px;
+}
+
+/* Optional: Add a box shadow for a modern touch */
+.btn {
+  transition: all 0.3s ease;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Outline Button Styles */
+.btn-outline-primary {
+  font-size: 14px;
+  font-weight: 800;
+  padding: 15px 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 25px; /* Rounded corners */
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #0085a1;
+  border: 2px solid #0085a1;
+  background-color: transparent;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active {
+  color: #fff;
+  background-color: #0085a1;
+  border-color: #00657b;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active {
+  color: #fff;
+  background-color: #00657b !important;
+  border-color: #00657b !important;
+}
+
+
+/* Optional: Add a box shadow for a modern touch */
+.btn-outline-primary {
+  transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active {
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }

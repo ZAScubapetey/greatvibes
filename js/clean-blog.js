@@ -39,3 +39,15 @@
   }
 
 })(jQuery); // End of use strict
+
+$(document).ready(function () {
+  $("#navbar").load("navbar.txt");
+});
+
+$(document).ready(function () {
+  $("#unifooter").load("footer.txt");
+});
+
+$(document).ready(function () {
+  $("#menu").load("menu.txt");
+});

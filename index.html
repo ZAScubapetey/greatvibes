@@ -1,187 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
     <title>Great Vibes Blog</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Custom fonts for this template -->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'
-        type='text/css'>
     <link
-        href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
-        rel='stylesheet' type='text/css'>
+      href="vendor/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+      rel="stylesheet"
+      type="text/css"
+    />
 
     <!-- Custom styles for this template -->
 
-    <link href="css/clean-blog.min.css" rel="stylesheet">
+    <link href="css/clean-blog.min.css" rel="stylesheet" />
 
-    <link href="css/clean-blog.css" rel="stylesheet">
+    <link href="css/clean-blog.css" rel="stylesheet" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <!-- Navigation -->
-    <div id="menu"></div>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">GreatVibes</a>
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="/">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbardrop"
+                data-toggle="dropdown"
+              >
+                Reviews
+              </a>
+              <div class="dropdown-menu">
+                <a
+                  class="dropdown-item"
+                  href="#myInput"
+                  id="dropdown-filter-books"
+                  >Books</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="#myInput"
+                  id="dropdown-filter-food"
+                  >Food</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="#myInput"
+                  id="dropdown-filter-wine"
+                  >Wine</a
+                >
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <!-- Page Header -->
     <header class="masthead" style="background-image: url('img/home-bg.jpg')">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-md-10 mx-auto">
-                    <div class="site-heading">
-                        <h1>The Great Vibes</h1>
-                        <span class="subheading">a blog about Good Books, Fine Wines and whatever else I fancy</span>
-                    </div>
-                </div>
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="site-heading">
+              <h1>The Great Vibes</h1>
+              <span class="subheading"
+                >a blog about Good Books, Fine Wines and whatever else I
+                fancy</span
+              >
             </div>
+          </div>
         </div>
+      </div>
     </header>
 
     <!-- Main Content -->
     <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-md-10 mx-auto">
-                <h2>Filter reviews</h2>
-                <p>Type something to search more specific</p>
-                <input class="form-control" id="myInput" type="text" placeholder="Search..">
-                <div id="myDIV">
-                    <div class="post-preview">
-                        <a href="wineFlagstonePoetry2019Merlot.html">
-                            <h2 class="post-title">
-                                Flagstone Poetry Merlot 2019
-                            </h2>
-                            <h3 class="post-subtitle">
-                                a lovely red wine that brings back memories of the reason I started drinking red wine in
-                                the first place...
-                            </h3>
-                        </a>
-                        <p class="post-meta">Posted by
-                            <a href="about.html">Lee</a>
-                            on 02 January , 2021 in <a href="wines.html">Wine</a></p>
-                    </div>
-                    <hr>
-                    <div class="post-preview">
-                        <a href="wineBlindTasting2018.html">
-                            <h2 class="post-title">
-                                Blind Tasting Red Blend 2018
-                            </h2>
-                            <h3 class="post-subtitle">
-                                a interesting label design and concept to take something away to experience more...
-                            </h3>
-                        </a>
-                        <p class="post-meta">Posted by
-                            <a href="about.html">Lee</a>
-                            on 17 January , 2021 in <a href="wines.html">Wine</a></p>
-                    </div>
-                    <hr>
-                    <div class="post-preview">
-                        <a href="wineVriesenhofGSM2016.html">
-                            <h2 class="post-title">
-                                Vriesenhof Grenashe / Shiraz / Mourvedre 2016 
-                            </h2>
-                            <h3 class="post-subtitle">
-                                a stunning red blend with great aftertaste...
-                            </h3>
-                        </a>
-                        <p class="post-meta">Posted by
-                            <a href="about.html">Lee</a>
-                            on 18 January , 2021 in <a href="wines.html">Wine</a></p>
-                    </div>
-                    <hr>
-                    <!--<div class="post-preview">
-                        <a href="bookTemplate.html">
-                            <h2 class="post-title">
-                                First book review!
-                            </h2>
-                            <h3 class="post-subtitle">
-                                This is where the first Book review will go as soon as it is written.
-                            </h3>
-                        </a>
-                        <p class="post-meta">Posted by
-                            <a href="about.html">Lee</a>
-                            on 01 January , 2021</p>
-                    </div>
-                    <hr>
-                    <div class="post-preview">
-                        <a href="wineTemplate.html">
-                            <h2 class="post-title">
-                                First Wine review!
-                            </h2>
-                            <h3 class="post-subtitle">
-                                This is where the first Wine review will go as soon as it is written.
-                            </h3>
-                        </a>
-                        <p class="post-meta">Posted by
-                            <a href="about.html">Lee</a>
-                            on 01 January , 2021</p>
-                    </div>
-                    <hr>
-                    <div class="post-preview">
-                        <a href="foodTemplate.html">
-                            <h2 class="post-title">
-                                First Food review!
-                            </h2>
-                            <h3 class="post-subtitle">
-                                This is where the first Restaurant review will go as soon as it is written.
-                            </h3>
-                        </a>
-                        <p class="post-meta">Posted by
-                            <a href="about.html">Lee</a>
-                            on 01 January , 2021</p>
-                    </div>
-                    <hr>-->
-                </div>
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <h2>Filter reviews</h2>
+          <p>Type something to search more specific</p>
+          <input
+            class="form-control"
+            id="myInput"
+            type="text"
+            placeholder="Search.."
+          />
+          <div class="filter-buttons mt-3">
+            <button class="btn btn-outline-primary " id="filter-books-btn">Books</button>
+            <button class="btn btn-outline-primary" id="filter-wine-btn">Wine</button>
+            <button class="btn btn-outline-primary " id="filter-food-btn">Food</button>
+            <button class="btn btn-secondary" id="filter-all">All</button>
+          </div>
+          <div id="myDIV">
+            <div class="post-preview review books">
+              <a href="10-funny-Scifi-and-Fantasy-Books.html">
+                <h2 class="post-title">
+                  10 of the Funniest Science Fiction and Fantasy Books
+                </h2>
+                <h3 class="post-subtitle">
+                  Having grown up on a reading list comprised mostly of Terry
+                  Pratchett and Douglas Adams, I think humor writers...
+                </h3>
+              </a>
+              <p class="post-meta">
+                Posted by
+                <a href="about.html">Lee</a>
+                on 02 August , 2024 in
+                <a href="#myInput" id="filter-books2">books</a>
+              </p>
+              <hr />
             </div>
+
+            <div class="post-preview wine">
+              <a href="wineFlagstonePoetry2019Merlot.html">
+                <h2 class="post-title">
+                  Flagstone Poetry Merlot 2019
+
+                  <p></p>
+                </h2>
+
+                <h3 class="post-subtitle">
+                  a lovely red wine that brings back memories of the reason I
+                  started drinking red wine in the first place...
+                </h3>
+              </a>
+              <p class="post-meta">
+                Posted by
+                <a href="about.html">Lee</a>
+                on 02 July , 2024 in <a href="#myInput">Wine</a>
+              </p>
+              <hr />
+            </div>
+
+            <div class="post-preview wine">
+              <a href="wineBlindTasting2018.html">
+                <h2 class="post-title">
+                  Blind Tasting Red Blend 2018
+                  <p style="display: none">wine</p>
+                  <p></p>
+                </h2>
+
+                <h3 class="post-subtitle">
+                  a interesting label design and concept to take something away
+                  to experience more...
+                </h3>
+              </a>
+              <p class="post-meta">
+                Posted by
+                <a href="about.html">Lee</a>
+                on 17 June , 2024 in <a href="#myInput">Wine</a>
+              </p>
+              <hr />
+            </div>
+
+            <div class="post-preview wine">
+              <a href="wineVriesenhofGSM2016.html">
+                <h2 class="post-title">
+                  Vriesenhof Grenashe / Shiraz / Mourvedre 2016
+                  <p style="display: none">wine</p>
+                  <p></p>
+                </h2>
+
+                <h3 class="post-subtitle">
+                  a stunning red blend with great aftertaste...
+                </h3>
+              </a>
+              <p class="post-meta">
+                Posted by
+                <a href="about.html">Lee</a>
+                on 18 April , 2024 in <a href="#myInput">Wine</a>
+              </p>
+              <hr />
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-    
-    <hr>
+    <hr />
 
     <!-- Footer -->
     <div id="unifooter"></div>
-    
+
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <script>
-        $(window).scroll(function () {
-            var height = $(window).scrollTop();
-            if (height > 100) {
-                $('#back2Top').fadeIn();
-            } else {
-                $('#back2Top').fadeOut();
-            }
+      $(window).scroll(function () {
+        var height = $(window).scrollTop();
+        if (height > 100) {
+          $("#back2Top").fadeIn();
+        } else {
+          $("#back2Top").fadeOut();
+        }
+      });
+      $(document).ready(function () {
+        $("#back2Top").click(function (event) {
+          event.preventDefault();
+          $("html, body").animate(
+            {
+              scrollTop: 0,
+            },
+            "slow"
+          );
+          return false;
         });
-        $(document).ready(function () {
-            $("#back2Top").click(function (event) {
-                event.preventDefault();
-                $("html, body").animate({
-                    scrollTop: 0
-                }, "slow");
-                return false;
-            });
-
-        });
+      });
     </script>
-   
+
     <!-- Custom scripts for this template -->
     <script src="js/clean-blog.min.js"></script>
-
-</body>
-
+    <script src="js/clean-blog.js"></script>
+  </body>
 </html>
