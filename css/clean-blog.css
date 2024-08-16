@@ -519,3 +519,36 @@ footer .copyright {
 .text-muted-black {
   color: #000000
 }
+
+.book-info {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  margin-bottom: 20px; /* Space below the book info */
+}
+
+.book-cover {
+  width: 10em; /* Adjust width as needed */
+  height: 100%; /* Maintain aspect ratio */
+}
+
+.book-details {
+  flex: 1; /* Take up remaining space */
+}
+
+.section-heading a {
+  text-decoration: none; /* Remove underline from links */
+  color: #333; /* Adjust color if needed */
+}
+
+.text-muted {
+  color: #666; /* Adjust color for muted text */
+}
+
+.text-muted-black {
+  color: #444; /* Adjust color for black-muted text */
+}
+
+.lead {
+  font-size: 1.2em; /* Adjust font size for the lead paragraph */
+  color: #333; /* Adjust color for lead paragraph */
+}
