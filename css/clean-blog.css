@@ -82,8 +82,8 @@ a:hover {
   color: #0085a1;
 }
 
-blockquote {
-  font-style: italic;
+.blockquote {
+  font-style: italic !important;
   color: #868e96;
 }
 
@@ -514,4 +514,8 @@ footer .copyright {
 .btn-outline-primary:focus,
 .btn-outline-primary:active {
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.text-muted-black {
+  color: #000000
 }
